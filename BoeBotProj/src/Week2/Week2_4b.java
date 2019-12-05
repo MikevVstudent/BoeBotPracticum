@@ -4,8 +4,8 @@ import TI.BoeBot;
 import TI.Servo;
 
 public class Week2_4b {
-    public static Servo s1 = new Servo(12);
-    public static Servo s2 = new Servo(13);
+    private static Servo s1 = new Servo(12);
+    private static Servo s2 = new Servo(13);
 
     public static void main (String[] args){
         s1.update(1700);
